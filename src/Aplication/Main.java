@@ -1,8 +1,11 @@
 package Aplication;
+import BoardGame.Position;
+
 import java.lang.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("teste 123");
+        Position pos = new Position(3,5);
+        System.out.println(pos);
     }
 }
