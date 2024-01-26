@@ -1,7 +1,8 @@
 package Aplication;
+import java.lang.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Projeto dando erro");
+        System.out.println("teste 123");
     }
 }
