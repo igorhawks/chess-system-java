@@ -1,8 +1,7 @@
 package Aplication;
 
-public class Programa {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("teste");
-
+        System.out.println("Projeto dando erro");
     }
 }
