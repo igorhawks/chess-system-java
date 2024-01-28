@@ -15,5 +15,7 @@ public class Rook extends ChessPiece {
         return "R";
     }
 
-
+    public boolean[][] possibleMoves() {
+        return new boolean[getBoard().getRows()][getBoard().getColumns()];
+    }
 }
