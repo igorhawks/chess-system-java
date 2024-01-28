@@ -1,5 +1,7 @@
 package Aplication;
 
+import BoardGame.Piece;
+import Chess.ChessMatch;
 import Chess.ChessPiece;
 import Chess.ChessPosition;
 import Chess.Color;
@@ -44,6 +46,15 @@ public class UI {
         {
             throw new InputMismatchException("Erro no momento da leitura, posição invalida");
         }
+
+    }
+
+    public static void printMatch(ChessMatch chessMatch)
+    {
+        printBoard(chessMatch.getPieces());
+        System.out.println();
+        System.out.println("Turn: " + chessMatch.getTurn());
+        System.out.println("Aguardando o jogador: " + chessMatch.getCurrentPlayer());
 
     }
     public static void printBoard(ChessPiece[][] pieces){
